@@ -1,14 +1,14 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'mirai_check_box_widget.dart';
+part of 'mirai_radio.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$MiraiCheckBoxWidgetImpl _$$MiraiCheckBoxWidgetImplFromJson(
+_$MiraiRadioWidgetImpl _$$MiraiRadioWidgetImplFromJson(
         Map<String, dynamic> json) =>
-    _$MiraiCheckBoxWidgetImpl(
+    _$MiraiRadioWidgetImpl(
       id: json['id'] as String?,
       value: json['value'] as bool?,
       activeColor: json['activeColor'] as String?,
@@ -29,8 +29,8 @@ _$MiraiCheckBoxWidgetImpl _$$MiraiCheckBoxWidgetImplFromJson(
       isError: json['isError'] as bool? ?? false,
     );
 
-Map<String, dynamic> _$$MiraiCheckBoxWidgetImplToJson(
-        _$MiraiCheckBoxWidgetImpl instance) =>
+Map<String, dynamic> _$$MiraiRadioWidgetImplToJson(
+        _$MiraiRadioWidgetImpl instance) =>
     <String, dynamic>{
       'id': instance.id,
       'value': instance.value,

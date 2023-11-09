@@ -33,6 +33,7 @@ enum WidgetType {
   form,
   formField,
   checkBox,
+  radio,
   expanded,
   flexible,
   safeArea,

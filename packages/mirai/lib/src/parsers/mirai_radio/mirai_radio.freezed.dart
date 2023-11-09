@@ -3,7 +3,7 @@
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
-part of 'mirai_check_box_widget.dart';
+part of 'mirai_radio.dart';
 
 // **************************************************************************
 // FreezedGenerator
@@ -14,12 +14,12 @@ T _$identity<T>(T value) => value;
 final _privateConstructorUsedError = UnsupportedError(
     'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
-MiraiCheckBoxWidget _$MiraiCheckBoxWidgetFromJson(Map<String, dynamic> json) {
-  return _MiraiCheckBoxWidget.fromJson(json);
+MiraiRadioWidget _$MiraiRadioWidgetFromJson(Map<String, dynamic> json) {
+  return _MiraiRadioWidget.fromJson(json);
 }
 
 /// @nodoc
-mixin _$MiraiCheckBoxWidget {
+mixin _$MiraiRadioWidget {
   String? get id => throw _privateConstructorUsedError;
   bool? get value => throw _privateConstructorUsedError;
   String? get activeColor => throw _privateConstructorUsedError;
@@ -35,15 +35,15 @@ mixin _$MiraiCheckBoxWidget {
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
-  $MiraiCheckBoxWidgetCopyWith<MiraiCheckBoxWidget> get copyWith =>
+  $MiraiRadioWidgetCopyWith<MiraiRadioWidget> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class $MiraiCheckBoxWidgetCopyWith<$Res> {
-  factory $MiraiCheckBoxWidgetCopyWith(
-          MiraiCheckBoxWidget value, $Res Function(MiraiCheckBoxWidget) then) =
-      _$MiraiCheckBoxWidgetCopyWithImpl<$Res, MiraiCheckBoxWidget>;
+abstract class $MiraiRadioWidgetCopyWith<$Res> {
+  factory $MiraiRadioWidgetCopyWith(
+          MiraiRadioWidget value, $Res Function(MiraiRadioWidget) then) =
+      _$MiraiRadioWidgetCopyWithImpl<$Res, MiraiRadioWidget>;
   @useResult
   $Res call(
       {String? id,
@@ -64,9 +64,9 @@ abstract class $MiraiCheckBoxWidgetCopyWith<$Res> {
 }
 
 /// @nodoc
-class _$MiraiCheckBoxWidgetCopyWithImpl<$Res, $Val extends MiraiCheckBoxWidget>
-    implements $MiraiCheckBoxWidgetCopyWith<$Res> {
-  _$MiraiCheckBoxWidgetCopyWithImpl(this._value, this._then);
+class _$MiraiRadioWidgetCopyWithImpl<$Res, $Val extends MiraiRadioWidget>
+    implements $MiraiRadioWidgetCopyWith<$Res> {
+  _$MiraiRadioWidgetCopyWithImpl(this._value, this._then);
 
   // ignore: unused_field
   final $Val _value;
@@ -167,11 +167,11 @@ class _$MiraiCheckBoxWidgetCopyWithImpl<$Res, $Val extends MiraiCheckBoxWidget>
 }
 
 /// @nodoc
-abstract class _$$MiraiCheckBoxWidgetImplCopyWith<$Res>
-    implements $MiraiCheckBoxWidgetCopyWith<$Res> {
-  factory _$$MiraiCheckBoxWidgetImplCopyWith(_$MiraiCheckBoxWidgetImpl value,
-          $Res Function(_$MiraiCheckBoxWidgetImpl) then) =
-      __$$MiraiCheckBoxWidgetImplCopyWithImpl<$Res>;
+abstract class _$$MiraiRadioWidgetImplCopyWith<$Res>
+    implements $MiraiRadioWidgetCopyWith<$Res> {
+  factory _$$MiraiRadioWidgetImplCopyWith(_$MiraiRadioWidgetImpl value,
+          $Res Function(_$MiraiRadioWidgetImpl) then) =
+      __$$MiraiRadioWidgetImplCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call(
@@ -195,11 +195,11 @@ abstract class _$$MiraiCheckBoxWidgetImplCopyWith<$Res>
 }
 
 /// @nodoc
-class __$$MiraiCheckBoxWidgetImplCopyWithImpl<$Res>
-    extends _$MiraiCheckBoxWidgetCopyWithImpl<$Res, _$MiraiCheckBoxWidgetImpl>
-    implements _$$MiraiCheckBoxWidgetImplCopyWith<$Res> {
-  __$$MiraiCheckBoxWidgetImplCopyWithImpl(_$MiraiCheckBoxWidgetImpl _value,
-      $Res Function(_$MiraiCheckBoxWidgetImpl) _then)
+class __$$MiraiRadioWidgetImplCopyWithImpl<$Res>
+    extends _$MiraiRadioWidgetCopyWithImpl<$Res, _$MiraiRadioWidgetImpl>
+    implements _$$MiraiRadioWidgetImplCopyWith<$Res> {
+  __$$MiraiRadioWidgetImplCopyWithImpl(_$MiraiRadioWidgetImpl _value,
+      $Res Function(_$MiraiRadioWidgetImpl) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -218,7 +218,7 @@ class __$$MiraiCheckBoxWidgetImplCopyWithImpl<$Res>
     Object? autofocus = null,
     Object? isError = null,
   }) {
-    return _then(_$MiraiCheckBoxWidgetImpl(
+    return _then(_$MiraiRadioWidgetImpl(
       id: freezed == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
@@ -273,8 +273,8 @@ class __$$MiraiCheckBoxWidgetImplCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$MiraiCheckBoxWidgetImpl implements _MiraiCheckBoxWidget {
-  const _$MiraiCheckBoxWidgetImpl(
+class _$MiraiRadioWidgetImpl implements _MiraiRadioWidget {
+  const _$MiraiRadioWidgetImpl(
       {this.id,
       this.value,
       this.activeColor,
@@ -288,8 +288,8 @@ class _$MiraiCheckBoxWidgetImpl implements _MiraiCheckBoxWidget {
       this.autofocus = false,
       this.isError = false});
 
-  factory _$MiraiCheckBoxWidgetImpl.fromJson(Map<String, dynamic> json) =>
-      _$$MiraiCheckBoxWidgetImplFromJson(json);
+  factory _$MiraiRadioWidgetImpl.fromJson(Map<String, dynamic> json) =>
+      _$$MiraiRadioWidgetImplFromJson(json);
 
   @override
   final String? id;
@@ -321,14 +321,14 @@ class _$MiraiCheckBoxWidgetImpl implements _MiraiCheckBoxWidget {
 
   @override
   String toString() {
-    return 'MiraiCheckBoxWidget(id: $id, value: $value, activeColor: $activeColor, fillColor: $fillColor, checkColor: $checkColor, tristate: $tristate, focusColor: $focusColor, hoverColor: $hoverColor, overlayColor: $overlayColor, splashRadius: $splashRadius, autofocus: $autofocus, isError: $isError)';
+    return 'MiraiRadioWidget(id: $id, value: $value, activeColor: $activeColor, fillColor: $fillColor, checkColor: $checkColor, tristate: $tristate, focusColor: $focusColor, hoverColor: $hoverColor, overlayColor: $overlayColor, splashRadius: $splashRadius, autofocus: $autofocus, isError: $isError)';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$MiraiCheckBoxWidgetImpl &&
+            other is _$MiraiRadioWidgetImpl &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.value, value) || other.value == value) &&
             (identical(other.activeColor, activeColor) ||
@@ -372,20 +372,20 @@ class _$MiraiCheckBoxWidgetImpl implements _MiraiCheckBoxWidget {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$MiraiCheckBoxWidgetImplCopyWith<_$MiraiCheckBoxWidgetImpl> get copyWith =>
-      __$$MiraiCheckBoxWidgetImplCopyWithImpl<_$MiraiCheckBoxWidgetImpl>(
+  _$$MiraiRadioWidgetImplCopyWith<_$MiraiRadioWidgetImpl> get copyWith =>
+      __$$MiraiRadioWidgetImplCopyWithImpl<_$MiraiRadioWidgetImpl>(
           this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$MiraiCheckBoxWidgetImplToJson(
+    return _$$MiraiRadioWidgetImplToJson(
       this,
     );
   }
 }
 
-abstract class _MiraiCheckBoxWidget implements MiraiCheckBoxWidget {
-  const factory _MiraiCheckBoxWidget(
+abstract class _MiraiRadioWidget implements MiraiRadioWidget {
+  const factory _MiraiRadioWidget(
       {final String? id,
       final bool? value,
       final String? activeColor,
@@ -397,10 +397,10 @@ abstract class _MiraiCheckBoxWidget implements MiraiCheckBoxWidget {
       final MiraiMaterialColor? overlayColor,
       final double? splashRadius,
       final bool autofocus,
-      final bool isError}) = _$MiraiCheckBoxWidgetImpl;
+      final bool isError}) = _$MiraiRadioWidgetImpl;
 
-  factory _MiraiCheckBoxWidget.fromJson(Map<String, dynamic> json) =
-      _$MiraiCheckBoxWidgetImpl.fromJson;
+  factory _MiraiRadioWidget.fromJson(Map<String, dynamic> json) =
+      _$MiraiRadioWidgetImpl.fromJson;
 
   @override
   String? get id;
@@ -428,6 +428,6 @@ abstract class _MiraiCheckBoxWidget implements MiraiCheckBoxWidget {
   bool get isError;
   @override
   @JsonKey(ignore: true)
-  _$$MiraiCheckBoxWidgetImplCopyWith<_$MiraiCheckBoxWidgetImpl> get copyWith =>
+  _$$MiraiRadioWidgetImplCopyWith<_$MiraiRadioWidgetImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
